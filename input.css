@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 3px;
+    @apply bg-blueSecondary;
+  
+}
+
+.line-middle {
+    transform: translateY(7px);
+}
+
+.line-bottom {
+    transform: translateY(14px);
+}
